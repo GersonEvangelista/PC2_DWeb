@@ -1,10 +1,10 @@
 const routes = [
   {
-    path: "/p2",
+    path: "/main",
     component: () => import("layouts/MainLayout.vue"),
     children: [
       { path: "", component: () => import("pages/IndexPage.vue") },
-      //{ path: "movies", component: () => import("pages/PageMovie.vue") },
+      { path: "p2", component: () => import("src/components/Movie/ListaPeliculas.vue") },
     ],
   },
   {

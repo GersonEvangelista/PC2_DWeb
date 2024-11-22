@@ -53,7 +53,7 @@
 }
 
 #fondo {
-  background-color: #1abc9c;
+  background-color: #309a85;
   background-size: cover; /* Hace que el fondo cubra toda la pantalla */
   background-position: center center; /* Centra el fondo en la pantalla */
   background-attachment: fixed; /* Mantiene el fondo fijo al hacer scroll */
@@ -70,7 +70,7 @@ body {
   justify-content: center;
   height: 100vh;
   padding: 15px;
-  background: linear-gradient(135deg, #1d4e98, #1d4e98);
+  background: linear-gradient(135deg, #c2d2d1, #1d9871);
   overflow: hidden;
 }
 
@@ -87,7 +87,7 @@ body {
 .wrapper .title {
   padding-top: 7%;
   height: 140px;
-  background: linear-gradient(135deg, #1d4e98, #1abc9c);
+  background: linear-gradient(135deg, #c2d2d1, #1d9871);
   color: #fff;
   font-size: 28px;
   font-weight: 600;
@@ -176,7 +176,7 @@ form .row input::placeholder {
 }
 
 form .button input:hover {
-  background: #1d4e98;
+  background: #0e1e37;
 }
 
 .wrapper form .signup-link {
@@ -232,7 +232,7 @@ export default {
             timeout: 3000,
             position: "top",
           });
-          this.$router.push("/p2");
+          this.$router.push("/main/p2");
         })
         .catch((error) => {
           console.log("Esto es error", error);
